@@ -23,6 +23,7 @@ h5,
 h6 {
   font-weight: 600;
   font-family: 'Raleway', sans-serif;
+  
 }
 a {
   color: #45aed6;
@@ -953,4 +954,8 @@ padding: 7px 0 0;
 
 .pricing li{
   border-bottom: 0.3px solid #dedede !important;
+}
+
+.subheading{
+  color: #37ae27 !important;
 }

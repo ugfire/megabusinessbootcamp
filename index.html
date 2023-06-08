@@ -1,27 +1,850 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-    <title>Mazima</title>
+    <meta name="description" content="" />
+    <meta name="author" content="Mega Business BootCamp" />
+    <title>Mega Business Bootcamp</title>
+    <!-- core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/animate.min.css" rel="stylesheet" />
+    <link href="css/prettyPhoto.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/countdown.css" rel="stylesheet" />
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="images/ico/favicon.png" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.0/dist/sweetalert2.min.js"></script>
   </head>
-  <body>
-    <div class="container-fluid text-center p-3">
-      <img src="coder.gif" alt="" class="img-fluid" />
-    </div>
-    <h2 class="text-center text-danger fw-bold p-3 border-1 border-bottom">
-      Mega <span class="text-success">Business </span> Bootcamp
-    </h2>
-    <p class="text-center">
-      Website is under construction. For more info call/Whatsapp
-      <i class="text-success">+256 708 232599</i>
-    </p>
+
+  <body id="home">
+    <header id="header">
+      <nav
+        id="main-nav"
+        class="navbar navbar-default navbar-fixed-top"
+        role="banner"
+      >
+        <div class="container">
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target=".navbar-collapse"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"
+              ><img src="images/logo.png" width="200px" alt="logo"
+            /></a>
+          </div>
+
+          <div class="collapse navbar-collapse navbar-right">
+            <ul class="nav navbar-nav">
+              <li class="scroll active"><a href="#home">Home</a></li>
+              <li class="scroll"><a href="#services">Services</a></li>
+              <li class="scroll"><a href="#about">About</a></li>
+              <li class="scroll"><a href="#our-team">Team</a></li>
+              <li class="scroll"><a href="#portfolio">Gallery</a></li>
+              <li class="scroll"><a href="#pricing">Pricing</a></li>
+              <li class="scroll"><a href="#contact-us">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <!--/.container-->
+      </nav>
+      <!--/nav-->
+    </header>
+    <!--/header-->
+
+    <section id="hero-banner" class="bg-dark">
+      <div class="container m-0">
+        <div class="container row">
+          
+          <div class="col-md-12">
+          
+              <h2 class="fw-bold text-center p-1 text-red text-light">
+                THE MEGA BUSINESS
+                <span class="text-light">BOOTCAMP 2023</span>
+              </h2>
+              <div class="countdown-container border timing border-warning text-center mx-auto">
+                <h4 class="text-light">
+                  Event Date :
+                  <span class="text-red">October 14, 2023</span>
+                </h4>
+                <div>
+                  <h4 class="text-red">
+                    TIME LEFT:
+                    <span id="countdown" class="text-light"></span>
+                  </h4>
+                </div>
+              </div>
+
+              <script src="js/script.js"></script>
+              <p class="">
+                Book a spot to showcase your business to over 100,000 business
+                people in Uganda's City Kampala, with Chris Lule and other Successful
+                business moguls.
+              </p>
+              <p class="my-5 text-center mx-auto">
+                <button class="btn btn-primary btn-lg text-center" onclick="window.location.href='#pricing'">Packages</button>
+                <button class="btn btn-danger btn-lg text-center" onclick="window.location.href='#contact-us'">Book Space</button>
+              </p>
+       
+        </div>
+      </div>
+    </section>
+    <!--/#main-slider-->
+
+    <section id="services">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title text-light wow fadeInDown">
+            What you get
+          </h2>
+          <p class="wow text-light">
+           There is a broad range of benefits you and your business will get out of the Mega boot camp.
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="features">
+            <div
+              class="col-md-4 col-sm-6 wow fadeInUp"
+              data-wow-duration="300ms"
+              data-wow-delay="0ms"
+            >
+              <div class="media service-box">
+                <div class="pull-left">
+                  <i class="fa fa-eye"></i>
+                </div>
+                <div class="media-body">
+                  <h4 class="media-heading">Visibility</h4>
+                  <p>
+                    With a coverage and viewership reaching over 100,000 potential customers, you will have great visibility for your products and services.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--/.col-md-4-->
+
+            <div
+              class="col-md-4 col-sm-6 wow fadeInUp"
+              data-wow-duration="300ms"
+              data-wow-delay="100ms"
+            >
+              <div class="media service-box">
+                <div class="pull-left">
+                  <i class="fa fa-chain"></i>
+                </div>
+                <div class="media-body">
+                  <h4 class="media-heading">Network</h4>
+                  <p>
+                    Get a real time opportunity to lock horns with your next potential business partner.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--/.col-md-4-->
+
+            <div
+              class="col-md-4 col-sm-6 wow fadeInUp"
+              data-wow-duration="300ms"
+              data-wow-delay="200ms"
+            >
+              <div class="media service-box">
+                <div class="pull-left">
+                  <i class="fa fa-database"></i>
+                </div>
+                <div class="media-body">
+                  <h4 class="media-heading">Grow your business</h4>
+                  <p>
+                   Learn how many industry leaders are manouvering common buainess challenges that you also face in your business and overcome to achieve greater heights.
+                  </p>
+                </div>
+              </div>
+            </div>
+       
+          </div>
+        </div>
+        <!--/.row-->
+      </div>
+      <!--/.container-->
+    </section>
+    <!--/#services-->
+
+    <section id="about">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title wow fadeInDown">Who we are</h2>
+          <p class="wow fadeInDown">
+           We are a team of young men and women, Ugandans who have built multi million dollar businesses from scratch, using the same business techniques that we are passionate to share with our fellow Ugandans sothat they also make it. Success is better enjoyed when it is for all of us, not just a few.
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6 wow fadeInLeft">
+            <img class="img-responsive" src="images/business.jpg" alt="" />
+          </div>
+
+          <div class="col-sm-6 wow fadeInRight">
+            <h3 class="section-title">Our Founder</h3>
+            <p>
+                Lule Christopher Kabogere is a consummate speaking professional! On and off stage. I don’t just talk business – I live it. For real, I walk,talk and breathe it! You see I do more than simply inspire the Entrepreneurship revolution, I am the guy that initiates it. I have  been the catalyst for change in businesses across the country through expertise in strategy, leadership and sales. Am a graduate in business studies and taxation basics. Am a family man, mentor and a financial consultant. Am passionate about building strategies to transform Africa from within.
+            </p>
+           
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/#about-->
+
+    <section id="our-team">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title wow fadeInDown">OUR TEAM</h2>
+          <p class="wow fadeInDown">
+            Meet the Business Moguls behind this amazing bootcamp
+          </p>
+        </div>
+
+        <div class="row text-center">
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div
+              class="team-member wow fadeInUp"
+              data-wow-duration="400ms"
+              data-wow-delay="0ms"
+            >
+              <div class="team-img">
+                <img class="img-responsive" src="images/chris.png" alt="" />
+              </div>
+              <div class="team-info bg-yellow">
+                <h3 class="text-dark">Chris Lule</h3>
+                <span>Founder, Mega Business BootCamp</span>
+              </div>
+              <ul class="social-icons text-center">
+                <li>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+            
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div
+              class="team-member wow fadeInUp"
+              data-wow-duration="400ms"
+              data-wow-delay="100ms"
+            >
+              <div class="team-img">
+                <img class="img-responsive" src="images/margaret.png" alt="" />
+              </div>
+              <div class="team-info bg-yellow">
+                <h3 class="text-dark">margaret K.</h3>
+                <span>Director, Masstra Shipping Agents Ltd.</span>
+              </div>
+              <ul class="social-icons text-center">
+                <li>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+            
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div
+              class="team-member wow fadeInUp"
+              data-wow-duration="400ms"
+              data-wow-delay="200ms"
+            >
+              <div class="team-img">
+                <img class="img-responsive" src="images/yasin.png" alt="" />
+              </div>
+              <div class="team-info bg-yellow">
+                <h3 class="text-dark">Yasin Bakaluba</h3>
+                <span>CEO, Bakaluba Property Services</span>
+              </div>
+              <ul class="social-icons text-center">
+                <li>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+            
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/#our-team-->
+
+    <section id="portfolio">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title wow fadeInDown text-dark">Gallery</h2>
+          <p class="wow fadeInDown">
+         Pictures from our business partners and from the previous Mega Business Bootcamps
+          </p>
+        </div>
+
+        <div class="text-center">
+       
+          <!--/#portfolio-filter-->
+        </div>
+
+        <div class="portfolio-items">
+          <div class="portfolio-item designing">
+            <div class="portfolio-item-inner">
+              <img
+                class="img-responsive"
+                src="images/portfolio/01.jpg"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <a
+                  class="preview"
+                  href="images/portfolio/01.jpg"
+                  rel="prettyPhoto"
+                  ><i class="fa fa-eye"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <!--/.portfolio-item-->
+
+          <div class="portfolio-item mobile development">
+            <div class="portfolio-item-inner">
+              <img
+                class="img-responsive"
+                src="images/portfolio/02.jpg"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <a
+                  class="preview"
+                  href="images/portfolio/02.jpg"
+                  rel="prettyPhoto"
+                  ><i class="fa fa-eye"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <!--/.portfolio-item-->
+
+          <div class="portfolio-item designing">
+            <div class="portfolio-item-inner">
+              <img
+                class="img-responsive"
+                src="images/portfolio/03.jpg"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <a
+                  class="preview"
+                  href="images/portfolio/03.jpg"
+                  rel="prettyPhoto"
+                  ><i class="fa fa-eye"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <!--/.portfolio-item-->
+
+          <div class="portfolio-item mobile">
+            <div class="portfolio-item-inner">
+              <img
+                class="img-responsive"
+                src="images/portfolio/04.jpg"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <a
+                  class="preview"
+                  href="images/portfolio/04.jpg"
+                  rel="prettyPhoto"
+                  ><i class="fa fa-eye"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <!--/.portfolio-item-->
+
+          <div class="portfolio-item designing development">
+            <div class="portfolio-item-inner">
+              <img
+                class="img-responsive"
+                src="images/portfolio/05.jpg"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <a
+                  class="preview"
+                  href="images/portfolio/05.jpg"
+                  rel="prettyPhoto"
+                  ><i class="fa fa-eye"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <!--/.portfolio-item-->
+
+          <div class="portfolio-item mobile">
+            <div class="portfolio-item-inner">
+              <img
+                class="img-responsive"
+                src="images/portfolio/06.jpg"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <a
+                  class="preview"
+                  href="images/portfolio/06.jpg"
+                  rel="prettyPhoto"
+                  ><i class="fa fa-eye"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <!--/.portfolio-item-->
+
+          <div class="portfolio-item designing development">
+            <div class="portfolio-item-inner">
+              <img
+                class="img-responsive"
+                src="images/portfolio/07.jpg"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <a
+                  class="preview"
+                  href="images/portfolio/07.jpg"
+                  rel="prettyPhoto"
+                  ><i class="fa fa-eye"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <!--/.portfolio-item-->
+
+          <div class="portfolio-item mobile">
+            <div class="portfolio-item-inner">
+              <img
+                class="img-responsive"
+                src="images/portfolio/08.jpg"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <a
+                  class="preview"
+                  href="images/portfolio/08.jpg"
+                  rel="prettyPhoto"
+                  ><i class="fa fa-eye"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <!--/.portfolio-item-->
+        </div>
+      </div>
+      <!--/.container-->
+    </section>
+    <!--/#portfolio-->
+
+    <section id="pricing">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title wow fadeInDown">Pricing</h2>
+          <p class="wow fadeInDown">
+            Below are the possible packages for your business to participate in the upcoming Mega Business Bootcamp 2023
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 col-sm-12">
+            <div
+              class="wow zoomIn"
+              data-wow-duration="400ms"
+              data-wow-delay="0ms"
+            >
+              <ul class="pricing">
+                <li class="plan-header">
+                  <div class="price-duration">
+                    <span class="price"> UgX 3M </span>
+                   
+                  </div>
+
+                  <div class="plan-name">Basic</div>
+                </li>
+                <li><strong>1</strong> Tent</li>
+                <li><strong>5</strong> Seater table + chairs</li>
+                <li><strong>1</strong>Large Pull up banner</li>
+               
+                <li class="plan-purchase">
+                  <a class="btn btn-danger" href="#">Book Now</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <div
+              class="wow zoomIn"
+              data-wow-duration="400ms"
+              data-wow-delay="200ms"
+            >
+              <ul class="pricing ">
+                <li class="plan-header">
+                  <div class="price-duration">
+                    <span class="price"> UgX 10M</span>
+                   
+                  </div>
+
+                  <div class="plan-name text-primary">Gold</div>
+                </li>
+                <li><strong>1</strong> Tent</li>
+                <li><strong>10</strong> Seater table + chairs</li>
+                <li><strong>3</strong> Large Pull up banner</li>
+                <li><strong></strong> Youtube Advert Live</li>
+                <li><strong></strong> Boosted advert on our Facebook, Instagram & Twitter
+                <br>100,000 views
+                </li>
+               
+              
+                <li class="plan-purchase">
+                  <a class="btn btn-danger" href="#">Book Now</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+         
+          <div class="col-md-4 col-sm-12">
+            <div
+              class="wow zoomIn"
+              data-wow-duration="400ms"
+              data-wow-delay="600ms"
+            >
+              <ul class="pricing">
+                <li class="plan-header">
+                  <div class="price-duration">
+                    <span class="price"> UgX 30M </span>
+                   </div>
+
+                  <div class="plan-name text-danger">Premium</div>
+                </li>
+                <li><strong>1</strong> Tent</li>
+                <li><strong>20</strong> Seater table + chairs</li>
+                <li><strong>3</strong> Large Pull up banner</li>
+                <li><strong></strong> Youtube Advert Live</li>
+                <li><strong></strong> Boosted advert on our Facebook, Instagram & Twitter
+                <br>1,000,000 views
+                </li>
+                <li><strong>3 TV Adverts</strong> NTV, BBS Tv, UBC</li>
+               
+              
+                <li class="plan-purchase">
+                  <a class="btn btn-danger" href="#">Book Now</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/#pricing-->
+
+    <section id="business-stats">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title wow fadeInDown">Our Statistics</h2>
+          <p class="wow fadeInDown">
+           A summary of our achievements the past 2years
+          </p>
+        </div>
+
+        <div class="row text-center">
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div
+              class="wow fadeInUp"
+              data-wow-duration="400ms"
+              data-wow-delay="0ms"
+            >
+              <div
+                class="business-stats"
+                data-digit="550"
+                data-duration="100"
+              ></div>
+              <strong>Businesses impacted</strong>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div
+              class="wow fadeInUp"
+              data-wow-duration="400ms"
+              data-wow-delay="100ms"
+            >
+              <div
+                class="business-stats"
+                data-digit="2"
+                data-duration="1000"
+              ></div>
+              <strong>Business Bootcamps held</strong>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div
+              class="wow fadeInUp"
+              data-wow-duration="400ms"
+              data-wow-delay="200ms"
+            >
+              <div
+                class="business-stats"
+                data-digit="320"
+                data-duration="1000"
+              ></div>
+              <strong>Attendees</strong>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div
+              class="wow fadeInUp"
+              data-wow-duration="400ms"
+              data-wow-delay="300ms"
+            >
+              <div
+                class="business-stats"
+                data-digit="2565400"
+                data-duration="1000"
+              ></div>
+              <strong>Social Media Views</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/#business-stats-->
+
+    <section class="testimonial-area" id="testimonial">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title wow fadeInDown text-yellow"><!--Testimonials--></h2>
+    <!--      <p class="wow fadeInDown text-light">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+            eget risus vitae massa <br />
+            semper aliquam quis mattis quam.
+          </p>  --->
+        </div>
+
+<!--
+        <div class="row">
+          <div class="col-md-4">
+            <div
+              class="single-testimonial animate_fade_in"
+              style="opacity: 1; right: 0px"
+            >
+              <div class="row text-light">
+                <div class="col-xs-12">
+                  <blockquote>
+                    Sontrary to popular belief, Lorem Ipsuis no simply random
+                    text. It has roots in a piece of classical Layears old.
+                    belief, Lorem Ipsuis not simply
+                  </blockquote>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-3">
+                  <img src="images/pic1.jpg" alt="client" />
+                </div>
+                <div class="col-xs-9 half-gutter">
+                  <h5>John Bond</h5>
+                  <h6>Lorem Ipsuis simply</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div
+              class="single-testimonial animate_fade_in"
+              style="opacity: 1; right: 0px"
+            >
+              <div class="row">
+                <div class="col-xs-12">
+                  <blockquote>
+                    Tontrary to popular belief, Lorem Ipsuis no simply random
+                    text. It has roots in a piece of classical Layears old.
+                    belief, Lorem Ipsuis not simply
+                  </blockquote>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-3">
+                  <img src="images/pic2.jpg" alt="client" />
+                </div>
+                <div class="col-xs-9 half-gutter">
+                  <h5>John Bond</h5>
+                  <h6>Lorem Ipsuis simply</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div
+              class="single-testimonial animate_fade_in"
+              style="opacity: 1; right: 0px"
+            >
+              <div class="row">
+                <div class="col-xs-12">
+                  <blockquote>
+                    Aontrary to popular belief, Lorem Ipsuis no simply random
+                    text. It has roots in a piece of classical Layears old.
+                    belief, Lorem Ipsuis not simply
+                  </blockquote>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-3">
+                  <img src="images/pic1.jpg" alt="client" />
+                </div>
+                <div class="col-xs-9 half-gutter">
+                  <h5>John Bond</h5>
+                  <h6>Lorem Ipsuis simply</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    -->
+      </div>
+    </section>
+    <section id="contact-us">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title wow fadeInDown">Contact Us</h2>
+          <p class="wow fadeInDown">
+           Kindly reach out to us <br />
+            Let's talk Business
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--/#contact-us-->
+
+    <section id="contact">
+      <div class="container">
+        <div class="container contact-info">
+          <div class="row">
+            <div class="col-sm-4 col-md-4">
+              <div class="contact-form text-light">
+                <h3>Contact Info</h3>
+
+                <address>
+                  <strong>KAKACROWD INVESTMENTS LTD</strong><br />
+                 Kampala, Uganda<br />
+                  
+                  <abbr title="Phone">Tel:</abbr>+256781050759
+                </address>
+              </div>
+            </div>
+            <div class="col-sm-8 col-md-8">
+              <div class="contact-form">
+                <form
+                  id="main-contact-form"
+                  name="contact-form"
+                  method="post"
+                  action="#"
+                >
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control"
+                      placeholder="Name"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="email"
+                      name="email"
+                      class="form-control"
+                      placeholder="Email"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      name="subject"
+                      class="form-control"
+                      placeholder="Subject"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <textarea
+                      name="message"
+                      class="form-control"
+                      rows="8"
+                      placeholder="Message"
+                      required
+                    ></textarea>
+                  </div>
+                  <input type="submit" class="btn btn-primary" value="Send Message" id="sendButton" onclick="sendMessage()"/>
+                
+                </form>
+                <script src="js/swal.js"></script>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/#bottom-->
+
+    <footer id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            &copy; Designed by Mazima
+            
+          </div>
+          <div class="col-sm-6">
+            <ul class="social-icons">
+              <li>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+              </li>
+  
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--/#footer-->
+       <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/mousescroll.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.inview.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/custom-scripts.js"></script>
   </body>
 </html>

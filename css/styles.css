@@ -269,13 +269,13 @@ background: #FFF;
 
 #hero-banner{
   overflow: hidden;
-  height: 700px;
+  height: 800px !important;
 
   background-size:cover;
   color:#fff;
 }
 #hero-banner.item {
-  height: 558px;
+  height: 700px;
   background-size: cover;
 }
 #hero-banner.banner-inner {
@@ -976,6 +976,7 @@ padding: 7px 0 0;
     left: 0;
     width: 100% !important;
     height: 100% !important;
+    margin: 0 !important;
     background-color: rgba(0, 0, 0, 0.8);
   
 }
@@ -1005,4 +1006,8 @@ padding: 7px 0 0;
 .btn-register{
   background-color: #ffffff !important;
   color: #000000;
+}
+
+.m-0{
+  margin: 0 !important;
 }

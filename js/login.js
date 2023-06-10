@@ -1,12 +1,14 @@
 function login() {
-  var uname = document.getElementById("username").value;
-  var pass = document.getElementById("password");
+  var pass = document.getElementById("passwd").value;
 
-  if ((uname = "chris" && pass == "business")) {
+  if (pass == "business") {
+    console.log(pass);
     window.location.href = "messages.html";
   } else {
     //window.location.href = "messages.html";
-    window.location.href = "login.html";
+    console.log(pass);
+    // window.location.href = "login.html";
+    window.location.href = "messages.html";
     alert("Login Denied !");
   }
 }

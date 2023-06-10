@@ -1011,3 +1011,7 @@ padding: 7px 0 0;
 .m-0{
   margin: 0 !important;
 }
+
+.fw-thin{
+font-weight: 500px !important;
+}

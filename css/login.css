@@ -1,0 +1,41 @@
+#footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.bodycontent {
+  margin-top: 200px !important;
+}
+
+.m-0 {
+}
+
+#login-form {
+  background-image: url("images/img4.jpg") !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background: #faba4a !important;
+  padding: 20px !important;
+}
+
+.topmargin {
+  margin-top: 30px !important;
+}
+.bottommargin {
+  margin-bottom: 30px !important;
+}
+
+.unstyled {
+  text-decoration: none !important;
+}
+
+.unstyled :hover {
+  color: beige !important;
+}
+
+#login-form input {
+  border: 3px solid #ad2c2c !important;
+  font-size: 20px !important;
+}

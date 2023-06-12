@@ -865,16 +865,7 @@ font-size: 15px;
 padding: 6px 12px;
 border-radius: 0;
 }
- .business-stats:before {
-content: '';
-margin: 17px;
-display: block;
-border: currentcolor;
-height: 100px;
-border-radius: 50%;
-position: absolute;
-width: 100px;
-}
+
 /***********************
 ********* Footer ******
 ************************/

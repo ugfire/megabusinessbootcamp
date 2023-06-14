@@ -1010,3 +1010,8 @@ font-weight: 500px !important;
 .unstyled {
   text-decoration: none !important;
 }
+
+.sponsorbtn{
+margin: 5px !important;
+color: #000 !important;
+}

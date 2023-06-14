@@ -136,3 +136,17 @@ jQuery(function ($) {
     social_tools: false,
   });
 });
+
+function toggleBackground() {
+  var paragraph = document.getElementById("backgroundParagraph");
+  if (paragraph.style.display === "none") {
+    paragraph.style.display = "block";
+  } else {
+    paragraph.style.display = "none";
+  }
+}
+
+function hideBackground() {
+  var paragraph = document.getElementById("backgroundParagraph");
+  paragraph.style.display = "none";
+}

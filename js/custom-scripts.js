@@ -153,7 +153,7 @@ function hideBackground() {
 
 function showAlert() {
   Swal.fire({
-    title: "BSB",
+    title: "BuySellBusiness",
     html: `
       <p>Inspiration was born out of one entrepreneur’s need to sell his business</p>
       <p>BSB started in 2019 as an online business school to be precise. Since 2019 our passion for introducing people who want to buy a business to those who are selling a business has grown exponentially along with the site. BSB has evolved into a truly a regional giant that connects over half a million business buyers and sellers each and every year.</p>

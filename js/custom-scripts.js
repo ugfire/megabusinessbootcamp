@@ -150,3 +150,23 @@ function hideBackground() {
   var paragraph = document.getElementById("backgroundParagraph");
   paragraph.style.display = "none";
 }
+
+function showAlert() {
+  Swal.fire({
+    title: "BSB",
+    html: `
+      <p>Inspiration was born out of one entrepreneur’s need to sell his business</p>
+      <p>BSB started in 2019 as an online business school to be precise. Since 2019 our passion for introducing people who want to buy a business to those who are selling a business has grown exponentially along with the site. BSB has evolved into a truly a regional giant that connects over half a million business buyers and sellers each and every year.</p>
+      <p>For 4 years now we have been helping business owners, brokers and private sellers market their underperforming businesses or businesses with high growth potentials. From kikuubo shops to construction businesses, some of our most exciting business opportunities have included import and export businesses that have high return on investment.</p>
+      <p>We have become the Uganda’s largest marketplace advertising 5000 businesses for sale in over 12 countries. The website is proudly run by our team of 12 based in Dubai, Kigali, Nairobi, and Kampala.</p>
+      <p>We are always looking to improve the site and our services, so if you have any feedback or you are looking to sell your business, we would love to hear from you. Contact Us.</p>
+    `,
+    icon: "info",
+    customClass: {
+      popup: "responsive-popup",
+    },
+  });
+}
+
+// Attach the event listener to your button
+document.getElementById("myButton").addEventListener("click", showAlert);
